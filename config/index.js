@@ -13,14 +13,23 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "于述韬先生",
+      name: "暴龙战士",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o4sTH6ImylubBREB-s8LYz963Rg8",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "0tDCkA5-_RPLxK8AMZO63ALx-inYPP26NnLJKtuNODc",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: ""
-    }
+    },
+    {
+      // 想要发送的人的名字
+      name: "特别",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "o4sTH6LSjAiYQm25NYyI438yVIYQ",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: "0tDCkA5-_RPLxK8AMZO63ALx-inYPP26NnLJKtuNODc",
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: ""}
 
   ],
 
