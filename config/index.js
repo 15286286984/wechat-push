@@ -4,30 +4,30 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "wxc0f05df21cf9b1a3",
+  APP_ID: "wxae6e85561ec17a38",
 
   // 公众号APP_SECRET
-  APP_SECRET: "ae399f1cfadd3b75372b241ec9b69bdc",
+  APP_SECRET: "3bea50e080622c02b629c2bbe2d7d174",
 
  
   USERS: [
     {
       // 想要发送的人的名字
-      name: "暴龙战士",
+      name: "小周同学",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o4sTH6ImylubBREB-s8LYz963Rg8",
+      id: "3bea50e080622c02b629c2bbe2d7d174",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "6BW9W6sTJTlqL1o6j3gdAu508erQXpoL2uDadhsoFKg",
+      useTemplateId: "	qEQKw-O7fDKBpxFF5lYvaMFoBWr3c-kd8brv6sXMi78",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: ""
     },
     {
       // 想要发送的人的名字
-      name: "特别",
+      name: "小吴小朋友",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o4sTH6LSjAiYQm25NYyI438yVIYQ",
+      id: "omQMg5qRUlngJH2Im_JeVVSwiL8M",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "6BW9W6sTJTlqL1o6j3gdAu508erQXpoL2uDadhsoFKg",
+      useTemplateId: "qEQKw-O7fDKBpxFF5lYvaMFoBWr3c-kd8brv6sXMi78",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: ""}
 
@@ -44,9 +44,9 @@ export const config = {
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "自己",
+      name: "小吴",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o4sTH6ImylubBREB-s8LYz963Rg8",
+      id: "omQMg5qRUlngJH2Im_JeVVSwiL8M",
     }, 
   ],
     
@@ -57,9 +57,9 @@ export const config = {
   /** 天气相关 */
 
   // 所在省份
-  PROVINCE: "湖南",
+  PROVINCE: "贵州",
   // 所在城市
-  CITY: "邵阳",
+  CITY: "遵义",
 
   /** 重要节日相关 */
 
@@ -70,8 +70,8 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "色色的宝贝", "year": "2001", "date": "12-09"},
-    {"type": "节日", "name": "恋爱纪念日", "year": "2020", "date": "07-08"}
+    {"type": "生日", "name": "小吴的宝贝", "year": "2001", "date": "09-20"},
+    {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "09-22"}
   ],
 
   /**
@@ -89,7 +89,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2020-07-08"}
+    {"keyword": "love_day", date: "2021-09-22"}
     // ... 
   ],
 
